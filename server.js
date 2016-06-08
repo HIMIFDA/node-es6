@@ -4,7 +4,7 @@ const logger = require('morgan');
 
 
 const app = express();
-const port = process.env.PORT || 8008;
+const port = process.env.PORT || 8888;
 
 //view conf
 app.set('views', path.join(__dirname, 'views'));

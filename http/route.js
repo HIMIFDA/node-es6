@@ -1,6 +1,6 @@
 const Index = require('../routes/index');
 
-module.exports = function(app) {
+module.exports = (app) => {
 
 	app.get('/', Index.home);
 	app.get('/about', Index.about);
